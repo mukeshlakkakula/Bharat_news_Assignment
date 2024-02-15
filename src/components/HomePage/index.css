@@ -1,0 +1,39 @@
+.HomeImages {
+  width: 30%;
+}
+
+.newsImages {
+  width: 400px;
+}
+
+.homePageContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.darkMode {
+  background-color: #575759;
+  color: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .homePageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+  }
+
+  .newsImages {
+    width: 100%;
+  }
+  .HomeImages {
+    width: 90%;
+  }
+}

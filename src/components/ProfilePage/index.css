@@ -1,0 +1,83 @@
+.profileImgStyle {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.profilePageContainer {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.profileAndDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+}
+
+.profileImages {
+  width: 98%;
+}
+
+.profileImageContainer {
+  padding: 12px;
+}
+
+.mapperContainer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.likedAndPostedContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.postedAndLikedButtons {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  background-color: #161b1c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.onActive {
+  color: #ffffff;
+  background-color: #5871ed;
+  text-decoration: underline;
+}
+
+.buttonStyles {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (max-width: 650px) {
+  .profileAndDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .postedAndLikedButtons {
+    width: 90%;
+  }
+
+  .mapperContainer {
+    width: 98%;
+  }
+}

@@ -1,0 +1,86 @@
+.fullHeaderContainer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 5%;
+  border-style: solid;
+  margin: 2px;
+  border-width: 1px;
+}
+
+.backgroundBlack {
+  background-color: black;
+  color: #ffffff;
+}
+.themeBtn {
+  background-color: transparent;
+  border-style: none;
+}
+
+.themeLogo {
+  width: 50px;
+}
+
+.settingsIconLight {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-style: none;
+}
+
+.notActiveRouteStyle {
+  border-style: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.activeRouteStyle {
+  border-radius: 5px;
+  border-color: #ffffff;
+  background-color: black;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.settingsIconDark {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  color: #ffffff;
+  border-style: none;
+}
+
+.newsLogo {
+  width: 140px;
+}
+
+.darkText {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.lightText {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.leftHeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .newsLogo {
+    display: none;
+  }
+}
